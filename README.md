@@ -25,7 +25,7 @@
 
 3. **Forecasting:**
 
-   - Forecast production for up to 10 years using Arps decline models.
+   - Forecast production using Arps decline models.
    - Customize input parameters:
      - Initial production rate (Qi)
      - Decline rate (Di)
@@ -48,20 +48,18 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-repo/oilflo.git
+git clone https://github.com/Gamwal/oilflo.git
 cd oilflo
 ```
 
-2. Set up a Python environment:
+2. Set up a Python virtual environment:
 
-- Using Conda:
+- Using Pip:
 
 ```bash
-conda create -n oilflo python=3.9
-conda activate oilflo
+python3 -m venv [virtual_environment]
+source [virtual_environment]/bin/activate
 ```
-
-- Using virtualenv (instructions not provided, refer to virtualenv documentation)
 
 3. Install dependencies:
 
@@ -72,7 +70,7 @@ pip install -r requirements.txt
 4. Launch the application:
 
 ```bash
-streamlit run app.py
+streamlit run OilFlo\ v2\ Beta.py
 ```
 
 **How to Use:**
