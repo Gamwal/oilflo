@@ -43,7 +43,7 @@ with col3:
         "Which well would you like to view?",
         data[wellnames_column].unique(),
         placeholder="Select well to view...",
-        index=43
+        index=42
     )
 
 if not picked_well:
