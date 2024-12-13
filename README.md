@@ -100,4 +100,4 @@ OilFlo utilizes robust libraries and engineering principles. Special thanks to c
 - Multi-well forecasting support.
 - Database and real-time data stream integration.
 
-**Start forecasting with confidence! **
+**Start forecasting with confidence!**
